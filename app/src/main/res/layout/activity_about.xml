@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/about4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="0dp"
+        android:text="About FruitPuzzle"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="5dp"
+        android:gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="300dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="0dp"
+        android:text="Fruit Puzzle is a math and memory game for 10-13 years old kids."
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/about4"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="172dp"
+        android:text="Have Fun!!"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/about3"
+        android:layout_width="194dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="16dp"
+        android:text="Copyright 2019. Ms.Gululu"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="458dp"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
